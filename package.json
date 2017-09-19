@@ -1,33 +1,30 @@
 {
-    "name": "theme-dracula",
-    "version": "2.4.0",
-    "displayName": "Dracula Official",
+    "name": "theme-dracula-italics",
+    "version": "1.0.0",
+    "displayName": "Dracula Theme with Italic Keywors",
     "homepage": "https://draculatheme.com/",
-    "description": "Official Dracula Theme. A dark theme for many editors, shells, and more.",
-    "publisher": "dracula-theme",
+    "description": "Forked version of the official dracula theme and added italic keywords",
+    "publisher": "shidhincr",
     "license": "MIT",
     "scripts": {
         "attach": "./bootstrap.sh attach",
         "build": "mkdir -p ./theme && node ./build.js",
         "eject": "./bootstrap.sh eject",
-        "package": "vsce package -o ./bin/dracula.vsix",
+        "package": "vsce package -o ./bin/dracula-italics.vsix",
         "vscode:prepublish": "npm run build"
     },
     "maintainers": [
-        "Derek P Sifford <dereksifford@gmail.com>"
+        "Shidhin C R <shidhincr@gmail.com>"
     ],
     "contributors": [
-        "Krzysztof Wisznarewski",
-        "Daniel Ramos",
-        "Eric Jackson",
-        "Elliott Pogue"
+        "Shidhin C R"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/dracula/visual-studio-code.git"
+        "url": "https://github.com/shidhincr/vscode-dracula-italics.git"
     },
     "bugs": {
-        "url": "https://github.com/dracula/visual-studio-code/issues"
+        "url": "https://github.com/shidhincr/vscode-dracula-italics/issues"
     },
     "engines": {
         "vscode": "^1.13.0"
@@ -37,6 +34,7 @@
     ],
     "keywords": [
         "dracula",
+        "dracula-italic",
         "dark",
         "theme",
         "color-theme"
@@ -49,14 +47,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dracula",
+                "label": "Dracula Italics",
                 "uiTheme": "vs-dark",
                 "path": "./theme/dracula.json"
-            },
-            {
-                "label": "Dracula Soft",
-                "uiTheme": "vs-dark",
-                "path": "./theme/dracula-soft.json"
             }
         ]
     },

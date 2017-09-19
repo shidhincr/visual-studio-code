@@ -637,6 +637,7 @@ tokenColors:
     - punctuation.definition.keyword
     settings:
       foreground: *PINK
+      fontStyle: italic
 
   - name: Keyword "new"
     scope:

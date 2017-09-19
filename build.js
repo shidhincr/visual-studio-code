@@ -33,4 +33,3 @@ const soft = standard.replace(/'(#[0-9A-Z]{6})/g, (match, hex) => {
 });
 
 fs.writeFileSync(`${__dirname}/theme/dracula.json`, JSON.stringify(yaml.load(standard, { schema }), null, 4));
-fs.writeFileSync(`${__dirname}/theme/dracula-soft.json`, JSON.stringify(yaml.load(soft, { schema }), null, 4));
