@@ -2,7 +2,7 @@
 
 > A dark theme for [Visual Studio Code](http://code.visualstudio.com).
 
-![Screenshot](https://draculatheme.com/assets/img/screenshots/vscode.png)
+![Screenshot](./vscode-dracula-italics.png)
 
 ## Install
 
@@ -12,7 +12,7 @@ All instructions can be found at [draculatheme.com/visual-studio-code](https://d
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/visual-studio-code/graphs/contributors).
 
-[Shidhin C R](https://github.com/shidhincr) |
+[Shidhin C R](https://github.com/shidhincr)
 
 ## Contributing
 
