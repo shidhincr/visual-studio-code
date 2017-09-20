@@ -1,7 +1,7 @@
 {
     "name": "theme-dracula-italics",
-    "version": "1.0.0",
-    "displayName": "Dracula Theme with Italic Keywors",
+    "version": "1.0.1",
+    "displayName": "Dracula Theme with Italic Keywords",
     "homepage": "https://draculatheme.com/",
     "description": "Forked version of the official dracula theme and added italic keywords",
     "publisher": "shidhincr",
